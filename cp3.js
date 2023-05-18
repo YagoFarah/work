@@ -13,8 +13,6 @@ const firstNameInput = document.getElementById('firstName');
 
         form.addEventListener('submit', function(event) {
             event.preventDefault();
-            // Aqui você pode realizar a validação final antes do envio do formulário, se necessário.
-            // Por exemplo, você pode chamar as funções de validação novamente para garantir que todos os campos estejam válidos antes de enviar o formulário.
         });
 
         function validateFirstName() {
