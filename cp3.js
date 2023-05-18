@@ -59,4 +59,13 @@ const firstNameInput = document.getElementById('firstName');
             } else {
                 confirmPasswordInput.style.borderColor = '';
             }
+            
         }
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+        
+darkModeToggle.addEventListener('click', toggleDarkMode);
+        
+function toggleDarkMode() {
+    body.classList.toggle('dark-mode');
+}
